@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.imglogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imglogo:hover {
+    transform: scale(1.3);
+}
+.btn-custom{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-color: blue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    transition: color 0.3s ease;
+    margin-bottom: 2px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color: black;
+}
+
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.divimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    border-radius: 16px;
+    margin: 30px;
+}
+
+.imginicio{
+    object-fit: cover;
+    width: 95%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.divdetalles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 98%;
+    height: 300px;
+    object-fit: contain;
+    margin-top: 11px;
+    margin-left: 3px;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(1.3);
+}
+
+.card {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divpresentacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 50px;
+}
+
+.imgquienessomos {
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+    border: solid 1.5px black;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input, 
+#contact-form textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact-form button {
+    width: 100px;
+    padding: 10px;  
+    border-radius: 5px; 
+}
+
+#contact-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+#contact-form button[type="reset"] {
+    background-color: #6c757d;
+    color: white;
+    width: 150px;
+    margin-right: 5px;
+    margin-left: 297px;
+}
+
+#contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #595959;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.divcontacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.divmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+}
+
+.divredes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.divmapa{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    border: solid 1px black;
+    margin-right: 50px;
+}
